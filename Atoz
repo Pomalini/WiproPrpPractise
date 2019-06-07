@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Atoz {
+	public static void main(String args[]){
+		Scanner scan=new Scanner(System.in);
+		char s=scan.next().charAt(0);
+		if(s>=65 && s<=90){
+		int val=s-65;
+		val=25-(val+val);
+		s=(char)(s+val);
+		System.out.println(s);
+		}
+		else{
+			int val=s-97;
+			val=25-(val+val);
+			s=(char)(s+val);
+			System.out.println(s);
+		}
+		
+	}
+
+}
