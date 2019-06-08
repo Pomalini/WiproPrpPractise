@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PrimeLimit {
+public class SumofPrimeIndex {
 	public static int Prime(int x){
 		int flag=1;
 		if(x==0 || x==1){
