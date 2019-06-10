@@ -86,7 +86,7 @@ val3=false;
 else{
 System.out.println("Invalid Phone number");
 }
-if(val1&&val2&&val3){
+if(val1&&val2&&val3 && !(val1&&val2&&val3)){
 System.out.println("Your number is not fancy");
 }
 
